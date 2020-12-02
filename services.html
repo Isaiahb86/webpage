@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" type = "text/css" href="contact.css" />
+    <meta charset="UTF-8">
+    <title>Future Services Page</title>
+   <nav id="nav_menu"> 
+	<ul>   
+      
+		<li><a href="home.html">Home</a></li>        
+		<li><a href="services.html">Services</a>            
+			<ul>                
+				<li><a href="services.html"> Future services</a></li>                
+			           
+				<li><a href="#">Services</a>                    
+					<ul>                        
+						<li><a href="repair.html">Car Services</a></li>                        
+						<li><a href="shoes.html">Shoe Services</a></li>  
+     	       <li><a href="handy.html">Handy Services</a></li>                                
+					</ul>                
+				</li>                    
+			   
+			</ul>        
+		</li>        
+	<li><a href="aboutme.html">About Me</a></li>
+	<li class="lastitem"><a href="contact.html">            
+		Contact Me</a>                   
+		</li>    
+	</ul>
+ 
+</nav>
+
+
+<style>
+
+
+#nav_menu{
+width: 100%;
+float: center;
+} 
+
+#nav_menu ul {    
+	list-style-type: none;    
+	position: relative; }
+	
+#nav_menu ul li {
+ float: left; 
+ }
+ 
+#nav_menu ul ul {    
+	display: none;    
+	position: absolute;    
+	top: 100%; 
+	}
+
+#nav_menu ul ul li {    
+	float: none;    
+	position: relative; 
+	}
+	
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0; }
+	
+#nav_menu ul li.lastitemul li ul 
+	{
+	position: absolute;
+	left: -100%;
+	top: 0;
+	}
+#nav_menu ul li:hover > ul {
+	display: block;
+	}
+#nav_menu > ul::after 
+{
+	content: "";    
+	clear: both;    
+	display: block; 
+}
+#nav_menu ul {    
+	margin: 0;    
+	padding: 0; 
+	}
+	
+#nav_menu ul li a {    
+	text-align: center;    
+	display: block;
+	width: 176px;    
+	padding: 1em 0;    
+	text-decoration: none;    
+	background-color: white;    
+	color: black;    
+	font-weight: bold; 
+	}
+
+#nav_menu ul li.lastitem a 
+{ 
+  position : relative;
+  width: 178px;
+}
+
+#nav_menu ul li a.current 
+{    
+color: yellow; 
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus 
+{     background-color: gray; }
+</style>
+</head>
+<body>
+<p>
+Thank you for visting my future services page. As a college student studying Information Technology, I plan to use some of my knowledge and help others. For example, I created a website for this assignment and I hope to one day be able to build websites for customers. That will require me to make more classes on the subject, but I plan to. Another future service that I'd like to have is logo creation. I would like to learn how to use photoshop and that will allow me to gain the knowledge that I need.
+</p>
+
+</body>
+</html>
